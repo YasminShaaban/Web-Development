@@ -1,0 +1,34 @@
+﻿<form action="action_page.php" method="post">
+<!-- name attribute must be typed to submit form , when form is submitted the values "input data "are taken and processed through action_page.php "server-side" page "form-handler page :  a server page with a script for processing input data" so action_page.php is form-handler when button is pressed "submit=button" the form is submitted to form handler ... -->
+<fieldset>
+<legend>Personal information:</legend>
+  First name:<br>
+  <input type="text"  name="firstname" value="Mickey"><br>
+  Last name:<br>
+  <input type="text"  name="lastname"  value="Mouse"><br>
+   Gender:<br>
+  <input type="radio" name="gender"    value="male" checked> Male<br>
+  <input type="radio" name="gender"    value="female"> Female<br>
+  Car:<br>
+  <select name="cars" size="4" multiple>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select><br>
+  Write about yourself:<br>
+  <textarea name="message" rows="10" cols="30">
+    The cat was playing in the garden.
+</textarea><br>
+<button type="button" onclick="alert('Hello World!')" style="float:middle">Click Me!</button><br>
+<input list="browsers">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+ <input type="submit" value="Submit"><br>
+  </fieldset>
+</form>
