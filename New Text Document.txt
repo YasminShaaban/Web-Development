@@ -1,6 +1,13 @@
-p {
-    border: 1px solid powderblue;
-    margin: 50px;
-    padding: 30px;
-}
-h1 {color: blue;}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Books Store</title>
+<script src="app.js"></script>
+<style src=styles.css></style>
+</head>
+<body>
+
+
+
+</body>
+</html>
