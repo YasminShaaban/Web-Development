@@ -1,0 +1,45 @@
+.boyTable{
+ border: 3px solid #CC0000;
+ background-color: blue;
+ color: white
+
+}
+
+.boyItems{
+
+ font-family: Georgia  ;
+  font-size: 13px ;
+}
+
+.boyHead{
+  font-family: Georgia;
+  font-weight: bold ;
+  font-size:  16px ;
+
+}
+
+/*********************/
+
+.girlTable{
+ border: 10px solid #CC3399;
+ background-color: red;
+ color: white
+
+
+}
+
+.girlItems{
+
+ font-family: Georgia ;
+  font-size: 15px ;
+  font-style: italic;
+
+
+}
+
+.girlHead{
+font-family: Arial;
+  font-weight: bold ;
+  font-size:  20px ;
+
+}
